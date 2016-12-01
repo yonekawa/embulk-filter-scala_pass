@@ -1,0 +1,1 @@
+gem 'embulk-input-random'

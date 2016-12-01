@@ -1,0 +1,16 @@
+in:
+  type: random
+  rows: 100000
+  schema:
+    id: primary_key
+    name: string
+    score: integer
+out:
+  type: file
+  path_prefix: ./sample
+  file_ext: .csv
+  formatter:
+    type: csv
+    header_line: true
+    charset: UTF-8
+    newline: CRLF
